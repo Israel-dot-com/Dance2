@@ -3,6 +3,7 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     screens: {
+      s: '375px',
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -14,7 +15,8 @@ module.exports = {
         white: '#C0BFC4',
         gray: '#778EA8',
         ash: '#3F4851',
-        lightgray: '#C0BFC4',
+        lightgray: 'rgba(192, 191, 196, 0.25)',
+        darktest: 'rgba(22, 22, 23, 0.64)',
       }
     },
   },
