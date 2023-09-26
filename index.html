@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tailwind.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dance</title>
@@ -10,19 +13,21 @@
   <body
     class="bg-[url('./img/background.png')] bg-no-repeat bg-cover bg-center"
   >
+
+  <!-- Nav Bar -->
     <section
       class="bg-[url('./img/herorectangle.png')] bg-no-repeat bg-cover bg-center bg-fixed max-w-full"
     >
-      <nav class="relative container mx-auto p-10">
+      <nav class="relative container mx-auto p-10 pt-12">
         <div class="flex flex-row items-center justify-between">
           <div>
             <h1 class="text-white">DANCE</h1>
           </div>
           <div class="hidden md:flex space-x-8">
-            <a class="hover:text-red-700 text-white cursor-pointer">Home</a>
-            <a class="hover:text-red-700 text-white cursor-pointer">Blog</a>
-            <a class="hover:text-red-700 text-white cursor-pointer">Contact</a>
-            <a class="hover:text-red-700 text-white cursor-pointer">Register</a>
+            <a class="font-medium hover:text-red-700 text-white cursor-pointer">Home</a>
+            <a class="font-medium hover:text-red-700 text-white cursor-pointer">Blog</a>
+            <a class="font-medium hover:text-red-700 text-white cursor-pointer">Contact</a>
+            <a class="font-medium hover:text-red-700 text-white cursor-pointer">Register</a>
           </div>
           <button id="nav-btn" class="block hamburger md:hidden focus:outline-none">
             <span class="hamburger-top"></span>
@@ -32,12 +37,12 @@
         </div>
 
         <!-- Mobile Menu -->
-        <div class="md:hidden">
-          <div id="menu" class="absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">Register</a>
+        <div class="md:hidden ">
+          <div id="menu" class="bg-[url('./img/background.png')] bg-no-repeat bg-cover bg-center absolute hidden flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+            <a class="text-white" href="#Home">Home</a>
+            <a class="text-white" href="#Testimonials">Blog</a>
+            <a class="text-white" href="#Contact Us">Contact</a>
+            <a class="text-white" href="#classes">Register</a>
             
           </div>
         </div>
@@ -45,7 +50,7 @@
 
       <section id="Home">
         <div
-          class="container flex flex-col md:flex-row items-center mx-auto space-y-0 md:space-y-0"
+          class="container flex flex-col md:flex-row items-center mx-auto space-y-0 px-8 md:px-16 md:space-y-0"
         >
           <div class="md:w-1/2">
             <img src="./img/Red Dancer.png" alt="" class="object-contain" />
@@ -80,10 +85,10 @@
       class="bg-[url('./img/AboutUs Rectangle.png')] bg-no-repeat bg-cover bg-center bg-fixed max-w-full"
     >
       <div
-        class="container flex flex-col items-center mx-auto space-y-0 md:space-y-0 md:flex-row"
+        class="container flex flex-col items-center mx-auto space-y-0 px-10 mt-24  md:space-y-0 md:flex-row"
       >
         <div class="md:w-1/2">
-          <h1 class="text-white font-medium text-4xl tracking-widest mb-10">
+          <h1 class="text-white font-medium text-4xl tracking-widest">
             EVERYTHING ABOUT US
           </h1>
 

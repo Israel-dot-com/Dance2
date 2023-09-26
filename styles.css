@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: poppins;
+}
 
 .hamburger{
     cursor: pointer;
@@ -19,7 +22,7 @@
     left: 0;
     width: 20px;
     height: 2px;
-    background: #000;
+    background: #55549D;
     transition: all 0.5s;
 }
 
